@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="bootstrap.css">
+
         <title>Practice</title>
     </head>
     <body>
@@ -11,24 +13,50 @@
             <small>Maybe I'm a little biased</small>
             
         </div>
-         
-          <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="https://google.com">Just a link to google</a>
-              </div>
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="sandbox.html">Cats Cats Cats</a></li>
-                <li><a href="AboutMe.html">About Me</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarColor01">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </li>
               </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
           </nav>
+          
 
             
-        <div class = "container">
+        <div class = "cat-container">
             <div class = "practice-row">
-                <div class = "col-sm-4">
+                
+                <div class = "colcat">
                     <h3>Madame Fuzzy Pants</h3>
                     <p>Maddie was my first cat. She's 4 now.<br>
                     She tends to be a bit of a princess<br>
@@ -37,7 +65,7 @@
                         <img src="images/maddie.jpg" alt="photo of cat" class="catimage">
                     </div>
                 </div>
-                <div class = "col-sm-4">
+                <div class = "colcat">
                     <h3>Sebastian</h3>
                     <p>Sebastian is my 16 year old son's cat<br>
                     He is still a kitten, we got him in April 2020<br>
@@ -46,7 +74,7 @@
                     <img src="images/sebastian.jpg" alt="photo of cat" class="img-rounded">
                     </div>
                 </div>
-                <div class ="col-sm-4">
+                <div class ="colcat">
                     <h3>Skittles</h3>
                     <p>Skittles is my 9 year old's cat.<br>
                     We got her in July after trying to have a dog<br>
@@ -56,8 +84,9 @@
                     only about 5 months old and loves cuddles</p>
                     <div class ="catimage-container">
                     <img src="images/skittles.jpg" alt="photo of cat" class="img-circle"> 
-                    </div>    
-            </div>
+                    </div> 
+                </div>
+              
         </div>        
     </body>
 </html>

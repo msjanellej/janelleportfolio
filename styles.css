@@ -23,7 +23,7 @@ body{
     font-size: 50px;
     text-align: center;
 }
-.text{
+/* .text{
     background-color: pink;
     border-color: white;
     width: 50%;
@@ -34,7 +34,7 @@ body{
     font-size: 32px;
     text-align: center;
     border-radius: 20%;    
-}
+} */
 .image{
     width: 100%;
     height: auto;
@@ -168,8 +168,9 @@ input[type=reset]{
     width: 100%;
     height: auto;
 }
-.nav navbar-nav{
-    width
+.colcat {
+    display: table-cell;
+    padding: 16px;
 }
 
     
