@@ -144,5 +144,33 @@ input[type=reset]{
     font-size: 50px;
     text-align: center;      
 }
+.catimage-container{
+    
+    width: 200px;
+    height: auto;
+}
+.catimage{
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+.img-circle{
+    width: 75%;
+    height: auto;
+    border-radius: 65%
+}
+.img-rounded{
+    width: 75%;
+    height: auto;
+    border-radius: 40%;
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+.nav navbar-nav{
+    width
+}
+
     
 
