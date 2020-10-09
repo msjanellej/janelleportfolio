@@ -66,7 +66,50 @@ body{
     padding: 0px;
     font-size: 50px;
     text-align: center;
+}
+.contact-body{
+    border-style: solid;
+    border-color: white;
+    background-color:rgb(243, 211, 216);
+    width: 400px;
+    height: 400px,;
+    margin: 25px;
+    position: relative;
+    border-radius: 15%;
+    font-size: 50px;
+    text-align: center;
 
+}
+input [type=text], select, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 1px;
+    border-style: solid;
+    border-color:grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: white;
+    color: pink;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input [type =submit]:hover{
+    background-color: rgb(238, 129, 147);
+}
+input[type=reset]{
+    background-color: white;
+    color: pink;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
     
-
 
